@@ -161,3 +161,15 @@
     color: var(--color-foreground);
   }
 }
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .serif {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+}
