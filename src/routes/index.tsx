@@ -6,13 +6,13 @@ import { booking, handled, journey, optionById, useJourney } from "@/lib/journey
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Recovery Overview — Finnair Disruption Recovery" },
+      { title: "Flight Recovery — Finnair Disruption Recovery" },
       {
         name: "description",
         content:
           "See what has already been handled after a cancelled flight and what you still need to decide.",
       },
-      { property: "og:title", content: "Recovery Overview — Finnair Disruption Recovery" },
+      { property: "og:title", content: "Flight Recovery — Finnair Disruption Recovery" },
       {
         property: "og:description",
         content: "A self-service recovery concept for the moment a journey goes wrong.",
